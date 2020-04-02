@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Мои Делишки",
+    "slug": "dp-todo",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#01579B"
+    },
+    "notification": {
+      "icon": "./assets/icon96.png",
+      "color": "#01579B",
+      "androidCollapsedTitle": "Уведомления о делах"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ru.polyakovdmitriy.todo-rn",
+      "buildNumber": "1.0.3"
+    },
+    "android" : {
+      "package": "ru.polyakovdmitriy.todo_rn",
+      "versionCode": 4,
+      "permissions": []
+    }
+  }
+}
